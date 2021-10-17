@@ -129,3 +129,57 @@ input[type="radio"]:checked~label {
     color: #fff;
     transition: all .6s ease;
 }
+
+@media (max-width:320px) {
+    .hidden {
+        display: contents;
+    }
+
+    .banner-content {
+        width: 85%;
+    }
+
+    .slideshow {
+        border-radius: .5rem;
+    }
+
+    .slide.s1 img {
+        width: 77vw;
+    }
+
+    .slide img {
+        width: 77vw;
+        /* object-fit: fill; */
+    }
+
+    #r2:checked~.s1 {
+        margin-left: -51%;
+    }
+
+    #r3:checked~.s1 {
+        margin-left: -102.5%;
+    }
+
+    #r4:checked~.s1 {
+        margin-left: -154%;
+    }
+
+    .slideshow-content {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .slideshow-buttons {
+        margin: 0 auto;
+    }
+
+    .slideshow-capture {
+        width: 37vw;
+        margin-top: 1rem;
+    }
+
+    .capture-wrapper {
+        height: 4vh;
+        width: 150vw;
+    }
+}
