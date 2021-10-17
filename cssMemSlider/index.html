@@ -4,11 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CSSMemSlider</title>
 </head>
 
 <body>
+    <section class="banner">
+        <div class="banner-content">
+            <div class="slideshow">
+                <div class="slideshow-wrapper">
+                    <input class="hidden" type="radio" name="r" id="r1" checked>
+                    <input class="hidden" type="radio" name="r" id="r2">
+                    <input class="hidden" type="radio" name="r" id="r3">
+                    <input class="hidden" type="radio" name="r" id="r4">
 
+                    <div class="slide s1">
+                        <img src="img/1.jpeg" alt="meme1">
+                    </div>
+                    <div class="slide">
+                        <img src="img/2small.jpg" alt="meme2">
+                    </div>
+                    <div class="slide">
+                        <img src="img/3small.jpg" alt="meme3">
+                    </div>
+                    <div class="slide narrow">
+                        <img src="img/4.jpeg" alt="meme4">
+                    </div>
+                </div>
+            </div>
+            <div class="slideshow-content">
+                <div class="slideshow-capture">
+                    <div class="capture-wrapper">
+                        <h1 class="description">This is a meme1</h1>
+                        <h1 class="description">This is a meme2</h1>
+                        <h1 class="description">This is a meme3</h1>
+                        <h1 class="description">This is a meme4</h1>
+                    </div>
+                </div>
+                <div class="slideshow-buttons">
+                    <label for="r1" class="slide-btn slide-btn-1"></label>
+                    <label for="r2" class="slide-btn slide-btn-2"></label>
+                    <label for="r3" class="slide-btn slide-btn-3"></label>
+                    <label for="r4" class="slide-btn slide-btn-4"></label>
+                </div>
+            </div>
 </body>
+</div>
+</section>
+
 
 </html>
